@@ -6,36 +6,9 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		0E4CB83423998A67006E9804 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4CB83323998A67006E9804 /* main.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		0E4CB82E23998A67006E9804 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		0E4CB83023998A67006E9804 /* TestingCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestingCode; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E4CB83323998A67006E9804 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0E4CB83A23998A8C006E9804 /* Testing Code.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Testing Code.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		0E4CB82D23998A67006E9804 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0E4CB82723998A67006E9804 = {
@@ -49,7 +22,6 @@
 		0E4CB83123998A67006E9804 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0E4CB83023998A67006E9804 /* TestingCode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,32 +29,12 @@
 		0E4CB83223998A67006E9804 /* TestingCode */ = {
 			isa = PBXGroup;
 			children = (
-				0E4CB83323998A67006E9804 /* main.swift */,
+				0E4CB83A23998A8C006E9804 /* Testing Code.playground */,
 			);
 			path = TestingCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		0E4CB82F23998A67006E9804 /* TestingCode */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0E4CB83723998A67006E9804 /* Build configuration list for PBXNativeTarget "TestingCode" */;
-			buildPhases = (
-				0E4CB82C23998A67006E9804 /* Sources */,
-				0E4CB82D23998A67006E9804 /* Frameworks */,
-				0E4CB82E23998A67006E9804 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TestingCode;
-			productName = TestingCode;
-			productReference = 0E4CB83023998A67006E9804 /* TestingCode */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0E4CB82823998A67006E9804 /* Project object */ = {
@@ -91,11 +43,6 @@
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Gordon, Russell";
-				TargetAttributes = {
-					0E4CB82F23998A67006E9804 = {
-						CreatedOnToolsVersion = 11.2.1;
-					};
-				};
 			};
 			buildConfigurationList = 0E4CB82B23998A67006E9804 /* Build configuration list for PBXProject "TestingCode" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -110,21 +57,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E4CB82F23998A67006E9804 /* TestingCode */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0E4CB82C23998A67006E9804 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E4CB83423998A67006E9804 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		0E4CB83523998A67006E9804 /* Debug */ = {
@@ -240,28 +175,6 @@
 			};
 			name = Release;
 		};
-		0E4CB83823998A67006E9804 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		0E4CB83923998A67006E9804 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -270,15 +183,6 @@
 			buildConfigurations = (
 				0E4CB83523998A67006E9804 /* Debug */,
 				0E4CB83623998A67006E9804 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0E4CB83723998A67006E9804 /* Build configuration list for PBXNativeTarget "TestingCode" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0E4CB83823998A67006E9804 /* Debug */,
-				0E4CB83923998A67006E9804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
